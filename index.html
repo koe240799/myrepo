@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meine Website</title>
+</head>
+<style>
+    :root {
+        --size-xs: 0.2rem;
+        --size-s: 0.4rem;
+        --size-m: 0.6rem;
+        --size-l: 0.8rem;
+        --size-xl: 1rem;
+
+        font-size: 40px;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    #sidenav{
+        background-color: red;
+    }
+    #sidenav ul{
+        list-style-type: none;
+    }
+    #sidenav ul li a{
+        display: block;
+        background-color: greenyellow;
+        text-decoration: none;
+        padding: var(--size-m) var(--size-l);
+
+</style>
+<body>
+    <header>
+        <h1>Meine tolle Website</h1>
+
+        <aside>
+            <nav id="sidenav">
+                <ul>
+                    <li>
+                        <a href="#page1">Seite 1</a>
+                    </li>
+                    <li>
+                        <a href="#page2">Seite 2</a>
+                    </li>
+                    <li>
+                        <a href="#page3">Seite 3</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </header>
+    <main>
+        <section id="page1">
+            <h2>Seite Eins</h2>
+            <p>aölskdjfölaksjdfölkajsdf sdlf laksdjföoasljdf öa</p>
+        </section>
+        <section id="page2">
+            <h2>Seite Zwei</h2>
+            <p>aölskdjfölaksjdfölkajsdf sdlf laksdjföoasljdf öa</p>
+        </section>
+        <section id="page3">
+            <h2>Seite Drei</h2>
+            <p>aölskdjfölaksjdfölkajsdf sdlf laksdjföoasljdf öa</p>
+        </section>
+
+        <aside>
+            Sidebar 2 - Werbung
+        </aside>
+    </main>
+
+<footer>
+    <div>Inhalt 1</div>
+    <div>Inhalt 2</div>
+    <div>Inhalt 3</div>
+</footer>
+
+</body>
+</html>
